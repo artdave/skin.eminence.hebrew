@@ -39,7 +39,7 @@
         <value condition="Player.HasVideo + VideoPlayer.Content(movies)">[COLOR=Highlight]$INFO[VideoPlayer.Director,,  ][/COLOR]</value>
         <value condition="Player.HasVideo">[COLOR=Highlight]$INFO[Player.Title,,  ][/COLOR]</value>
         <value condition="!IsEmpty(Container.NumItems) + ![Window.IsVisible(3201) | Window.IsVisible(3202) | Window.IsVisible(3203)]">$INFO[Container.NumItems,[COLOR=Highlight],[/COLOR] ]$LOCALIZE[31166]$INFO[Container.CurrentPage,  •  [COLOR=Highlight],[/COLOR]]$INFO[Container.NumPages, $LOCALIZE[20163] [COLOR=Highlight],[/COLOR] $LOCALIZE[31167]]</value>
-        <value>[COLOR=Highlight]$INFO[Window(home).Property(Movies.Count)][/COLOR] $LOCALIZE[20342]  •  [COLOR=Highlight]$INFO[Window(home).Property(Episodes.Count)][/COLOR] $LOCALIZE[20360]  •  [COLOR=Highlight]$INFO[Window(home).Property(Music.SongsCount)][/COLOR] $LOCALIZE[134]$INFO[Pvr.BackendChannels,  •  [COLOR=Highlight],[/COLOR] $LOCALIZE[31114]]</value>
+        <value> $LOCALIZE[20342] [COLOR=Highlight]$INFO[Window(home).Property(Movies.Count)][/COLOR] $LOCALIZE[20360]  •  [COLOR=Highlight]$INFO[Window(home).Property(Episodes.Count)][/COLOR] $LOCALIZE[134]  •  [COLOR=Highlight]$INFO[Window(home).Property(Music.SongsCount)][/COLOR] $LOCALIZE[31114]$INFO[Pvr.BackendChannels,  •  [COLOR=Highlight],[/COLOR]]</value>
     </variable>
     
     <variable name="MainHeaderIcon">

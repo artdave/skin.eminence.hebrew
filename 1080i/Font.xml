@@ -190,32 +190,32 @@
                 <font>
                     
                         <name>Font-PVRTitle</name>
-                        <filename>Roboto-Bold-Heb.ttf</filename>
+                        <filename>Roboto-Bold-Caps-Heb.ttf</filename>
                         <size>33</size>
                 </font>
                 <font>
                     
                         <name>Font-DialogHeader</name>
-                        <filename>Roboto-Bold-Heb.ttf</filename>
+                        <filename>Roboto-Bold-Caps-Heb.ttf</filename>
                         <size>41</size>
                 </font>
                 <font>
                     
                         <name>Font-Button</name>
-                        <filename>Roboto-Bold-Heb.ttf</filename>
+                        <filename>Roboto-Bold-Caps-Heb.ttf</filename>
                         <size>31</size>
                 </font>
                 <font>
                     
                         <name>Font-Context</name>
-                        <filename>Roboto-Bold-Heb.ttf</filename>
+                        <filename>Roboto-Bold-Caps-Heb.ttf</filename>
                         <size>31</size>
                         <style>uppercase</style>
                 </font>
                 <font>
                     
                         <name>Font-Sublabel</name>
-                        <filename>Roboto-Bold-Heb.ttf</filename>
+                        <filename>Roboto-Bold-Caps-Heb.ttf</filename>
                         <size>31</size>
                 </font>
                 <font>
@@ -228,7 +228,7 @@
                 <font>
                     
                         <name>Font-WidgetCategory</name>
-                        <filename>Roboto-Bold-Heb.ttf</filename>
+                        <filename>Roboto-Bold-Caps-Heb.ttf</filename>
                         <size>26</size>
                 </font>
         <font>

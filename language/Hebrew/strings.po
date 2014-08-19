@@ -157,7 +157,7 @@ msgid "Changes"
 msgstr "שינויים"
 
 msgctxt "#31137"
-msgid "Re-initialise skin"
+msgid "Re-initialise skin - WARNING: Resets skin to defaults"
 msgstr "אתחל מעטפת"
 
 msgctxt "#31138"
@@ -526,4 +526,28 @@ msgstr "תמונת רקע (לחץ לאיפוס)"
 
 msgctxt "#31230"
 msgid "Animate fanart"
-msgstr "הנשף פאנארט"
+msgstr "הנפש פאנארט"
+
+msgctxt "#31231"
+msgid "Edit Playlist"
+msgstr "ערוך רשימת ניגון"
+
+msgctxt "#31232"
+msgid "Rule"
+msgstr "חוק"
+
+msgctxt "#31233"
+msgid "Enter rule..."
+msgstr "הכנס חוק..."
+
+msgctxt "#31234"
+msgid "Advanced"
+msgstr "מתקדם"
+
+msgctxt "#31235"
+msgid "Extras"
+msgstr "תוספות"
+
+msgctxt "#31236"
+msgid "Header text"
+msgstr "טקסט כותרת"

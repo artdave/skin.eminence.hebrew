@@ -215,7 +215,7 @@
                 <altlabel>$LOCALIZE[287]</altlabel>
                 <include>DefOSDControls</include>
                 <include>DefOSDUpDown</include>
-                <onclick>Action(ShowSubtitles)</onclick>
+                <onclick>Action(NextSubtitle)</onclick>
                 <usealttexture>!VideoPlayer.SubtitlesEnabled</usealttexture>
             </control>
 
