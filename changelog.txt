@@ -1,5 +1,15 @@
+[B]0.9.50[/B]
+Streamline themes to be default/flat
+Colour schemes now go with either theme
+Removed sidebar texture in place of flat selection
+Added panel behind sidemenu and list
+
 [B]0.9.49[/B]
 Flat Themes + Tweaks + Colours
+Wall to id500 for thumb view defaults in Youtube etc
+Fix PVR hub icon issue
+Fix Music Hub not returning
+Music vis on home
 
 [B]0.9.48[/B]
 Invert widget access
