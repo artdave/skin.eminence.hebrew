@@ -1,8 +1,20 @@
+[B]0.9.51[/B]
+Added ability to customise global widget type
+Fix silhouette not showing
+Fix widget window 3101
+Widget carousel as own window option
+Fixes to smartplaylist editor and filter
+Add record button
+
 [B]0.9.50[/B]
 Streamline themes to be default/flat
 Colour schemes now go with either theme
 Removed sidebar texture in place of flat selection
 Added panel behind sidemenu and list
+Scrolling dialogs text
+fix id500 show info bug
+fix return home onleft bug
+fix epg pvr highlight
 
 [B]0.9.49[/B]
 Flat Themes + Tweaks + Colours
