@@ -42,7 +42,7 @@ msgstr "מסך מלא"
 
 msgctxt "#31107"
 msgid "min"
-msgstr ""
+msgstr "דק'"
 
 msgctxt "#31108"
 msgid "Quick Nav"
@@ -385,8 +385,8 @@ msgid "Loading..."
 msgstr "טוען..."
 
 msgctxt "#31195"
-msgid "Press down to access additional homescreen widgets"
-msgstr "הקש למטה כדי לגשת ליישומוני בית נוספים"
+msgid "Enable widget carousel access on down"
+msgstr "הפעל גישה ליישומון קרוסלה בלחיצה למטה"
 
 msgctxt "#31196"
 msgid "Channel Options"
@@ -413,8 +413,8 @@ msgid "Set Colour"
 msgstr "הגדר צבע"
 
 msgctxt "#31202"
-msgid "Background Widgets"
-msgstr "יישומוני רקע"
+msgid "Widget Carousel"
+msgstr "יישומון קרוסלה"
 
 msgctxt "#31203"
 msgid "Reset global background path to default"
@@ -437,12 +437,12 @@ msgid "Movie Set"
 msgstr "ערכת סרטים"
 
 msgctxt "#31208"
-msgid "Home Tiles"
-msgstr "לבנות בית"
+msgid "Home Screen"
+msgstr "מסך בית"
 
 msgctxt "#31209"
-msgid "Use global mixed widget (disable to set widgets for individual tiles)"
-msgstr "השתמש בערבוב יישומונים כללי (בטל יישומונים ללבנים בודדות)"
+msgid "Set global background widget"
+msgstr "הגדר יישומון רקע כללי"
 
 msgctxt "#31210"
 msgid "Enable background silhouette"
