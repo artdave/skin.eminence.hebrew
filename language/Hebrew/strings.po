@@ -345,8 +345,8 @@ msgid "Quick nav mode"
 msgstr "מצב ניווט מהיר"
 
 msgctxt "#31185"
-msgid "Decrease background fanart fade"
-msgstr "הקטן דעיכה של רקע הפאנארט"
+msgid "Fanart fade amount"
+msgstr "כמוד דעיכה של פאנארט"
 
 msgctxt "#31186"
 msgid "Custom Item"
@@ -445,8 +445,8 @@ msgid "Set global background widget"
 msgstr "הגדר יישומון רקע כללי"
 
 msgctxt "#31210"
-msgid "Enable background silhouette"
-msgstr "הפעל צלליות רקע"
+msgid "Set background image"
+msgstr "הגדר תמונת רקע"
 
 msgctxt "#31211"
 msgid "Move item"
@@ -517,8 +517,8 @@ msgid "Hide title"
 msgstr "הסתר כותרת"
 
 msgctxt "#31228"
-msgid "Set background image"
-msgstr "הגדרת תמונת רקע"
+msgid "Set background overlay"
+msgstr "הגדר כיסוי רקע"
 
 msgctxt "#31229"
 msgid "Background image (click to reset)"
@@ -554,4 +554,168 @@ msgstr "טקסט כותרת"
 
 msgctxt "#31237"
 msgid "Invert widget access"
-msgstr "היפוך גישת יישומון"
+msgstr "היוך גישת היישומון"
+
+msgctxt "#31238"
+msgid "Open carousel in own window"
+msgstr "פתח את יישומון קרוסלה בחלון נפרד"
+
+msgctxt "#31239"
+msgid "Kiosk mode"
+msgstr "מצב קיוסק"
+
+msgctxt "#31240"
+msgid "Use theme colour for header"
+msgstr "השתמש בצבע המעטפת לכותרת"
+
+msgctxt "#31241"
+msgid "3D Mode"
+msgstr "תלת מימד"
+
+msgctxt "#31242"
+msgid "Media Info"
+msgstr "מידע מדיה"
+
+msgctxt "#31243"
+msgid "Most"
+msgstr "יותר"
+
+msgctxt "#31244"
+msgid "Moderate"
+msgstr "מתון"
+
+msgctxt "#31245"
+msgid "Least"
+msgstr "פחות"
+
+msgctxt "#31246"
+msgid "No description available"
+msgstr "תיאור לא זמין"
+
+msgctxt "#31247"
+msgid "Customise home screen tiles. From here you can create new tiles, modify existing tiles, insert tiles, delete tiles, swap tiles and set individual background widgets. To set individual background widgets you must first disable the Global Widget. To set colours for individual tiles you must first disable the Use Theme Colour For Focused Tiles option."
+msgstr "התאם אישית את לבנות מסך הבית. מפה אפשר ליצר לבנות, לערוך לבנות קיימות, להכניס לבנות, למחוק לבנות, לשנות את סדר ההפועה ולהגדיר יישומוני רקע פרטניים. כדי להגדיר יישומוני רקע פרטניים, יש לבטל את היישומון הגלובלי קודם. כדי להגדיר צבע ללבנות יש לבטל  \"השתמש בצבע המעטפת ללבנות מסומנות\"."
+
+msgctxt "#31248"
+msgid "Sets the background widget for the home screen that can be accessed by pressing up. Disabling this option allows individual widgets to be set for tiles in the customisation screen."
+msgstr "הגדר יישומון רדע למסך הבית שיהיה נגיש דרך לחיצת כפתור למעלה. ביטל אפשרות זאת מאפשר שישמוש ביישומוני רקע פרטניים."
+
+msgctxt "#31249"
+msgid "Show the information panel for background widgets."
+msgstr "הצג פאנל מידע ליישומוני רקע."
+
+msgctxt "#31250"
+msgid "Focused tiles on home screen match the theme's highlight colour. Unfocused tiles are set to grey. This overrides individual tile colour settings."
+msgstr "לבנות מסומנות במסך הבית ישתמשו בצבעי המעטפת. לבנות לא מסומנות יהיו בצבע אפור. הגדרה זו מבטל את הצבעים מותאמים אישית ללבנות."
+
+msgctxt "#31251"
+msgid "Match the colour of the focused tile's text underline to the colour of the tile."
+msgstr "התאם את הצבע של הטקסט בלבנה מסומנת לצבע הלבנה."
+
+msgctxt "#31252"
+msgid "Sets the path to the background slideshow that is shown when the focused tile does not have a background widget set."
+msgstr "הגדר נתיב למצגת שקופיות שמוצגת כאשר ללבנה המסומנת אין יישומון רקע"
+
+msgctxt "#31253"
+msgid "Enables an additional widget carousel that is accessed by pressing down. Once open, pressing up will cycle through the widgets."
+msgstr "הפעל יישומון קרוסלה נוסף שנגיש בלחיצת כפתור למטה. ברגע שנפתח היישומון, לחיצה למעלה תרוץ בין היישומונים."
+
+msgctxt "#31254"
+msgid "Open the widget carousel in its own window rather than above the home screen tiles."
+msgstr "פתח את יישומון הקרוסלה בחלון משל עצמו במקום מעל לשורת הלבנות במסך הבית."
+
+msgctxt "#31255"
+msgid "Invert access to widgets so that up opens the carousel and down accesses the background widget."
+msgstr "הפוך את הגישה ליישומונים, כך שלחיצה למעלה תפתח את הקרוסלה ולחיצה למטה תפתח את היישומון רקע."
+
+msgctxt "#31256"
+msgid "Show fanart in the background of library views."
+msgstr "הצג פאנארט ברקע של הספריה"
+
+msgctxt "#31257"
+msgid "Sets how much the background fanart is faded. There are three settings: Most, Moderate and Least."
+msgstr "הגדר כמה פאנארט רקע דעוך. ישנם שלוש הגדרות: יותר, מתון ופחות."
+
+msgctxt "#31258"
+msgid "Animate background fanart with a Ken Burns type effect."
+msgstr ""
+
+msgctxt "#31259"
+msgid "Set the backgroud image that is displayed when no fanart is available. Click once to clear the current path and again to select a new path."
+msgstr "הצג תמונת רקע כאשר לא אין פאנארט זמין. לחיצה מוחק את הנתיב הקיים ולחיצה נוספת מאפשר בחירת נתיב חדש."
+
+msgctxt "#31260"
+msgid "Changes the background colour based upon the time of day. This overrides the background image setting. The images for the background colour overlay can be modified in skin.eminence/extras/sunset - the number of the image matches the hour it is displayed at in 24 hour time."
+msgstr "החלף צבע רקע בהתאם לשעת היממה. הגדרה זו דורסת את ההגדרה של תמונת רקע. תמונת רקע ניתן לשנות ב-skin.eminence.hebrew/extra/sunset -מספר התומונה מתאים לשעת היממה לפי שעון 24."
+
+msgctxt "#31261"
+msgid "Sets the image used as a background overlay. Click once to clear the current path and again to select a new path."
+msgstr "מגדיר את התנונת כיסוי רקע. לחיצה אחת למחיקת נתיב קיים, לחיצה נוספת להגדרת נתיב חדש."
+
+msgctxt "#31262"
+msgid "Sets the path to weather fanart used in the weather screen."
+msgstr "הגדרת נתיב לפאנארט מזג האוויר אשר מוצג במסך מזג האוויר."
+
+msgctxt "#31263"
+msgid "Select the widget shown in the movies hub. Can choose spotlight, in progress or smart playlist."
+msgstr "בחר יישומונים אשר מוצגים במרכז הסרטים. ניתן לבחור בspotlight, בתהליך או רשימת השמעה חכמה."
+
+msgctxt "#31264"
+msgid "Set the smart playlist used in the movie hub widget. Smart playlists can be created by going to the movies hub and scrolling down in the right pane to the playlists option."
+msgstr "הגדר רשימת השמעה חכמה שתשמש ביישומון מרכז הסרטים. רשימות השמעה חכמות ניתן ליצור במרכז הסרטים, ע\"י גלילה למטה בפאנל הימני עד לאפשרות הרשימות ההשמעה."
+
+msgctxt "#31265"
+msgid "Sets a custom item to be shown in the right pane of the hub underneath recently added."
+msgstr "מגדיר תפריט אישי ביישומון מרכז הסרטים/סדרות מתחת לנוסף לאחרונה."
+
+msgctxt "#31266"
+msgid "Select the widget shown in the tv shows hub. Can choose spotlight, in progress or smart playlist."
+msgstr "בחר ביישומון המוצג במרכז הסדרות. ניתן לבחור בין spotlight, בתהליך ורשימת השמעה חכמה"
+
+msgctxt "#31267"
+msgid "Set the smart playlist used in the tv show hub widget. Smart playlists can be created by going to the tv show hub and scrolling down in the right pane to the playlists option."
+msgstr "רשימת השמעה חכמה שתשמש ביישומון מרכז הסדרות. רשימות השמעה חכמות ניתן ליצור במרכז הסדרות, ע\"י גלילה למטה בפאנל הימני עד לאפשרות הרשימות ההשמעה."
+
+msgctxt "#31268"
+msgid "Use the Artist Slideshow addon to show a slideshow of artist images as the music visualisation."
+msgstr "השתמש בתוסף מצגת אומנים בכדי להציד כמצגת תמונות האומנים בתור הדמית מוסיקה."
+
+msgctxt "#31269"
+msgid "Shows the extend info panel on pressing info with fullscreen video or music."
+msgstr "הצגת פאנל מידע מורחב בלחיצת מידע במסך מלא של וידאו או מוסיקה"
+
+msgctxt "#31270"
+msgid "Show clearart or clearlogo in the bottom right of screen whenever the seekbar displays on fullscreen video."
+msgstr ""
+
+msgctxt "#31271"
+msgid "Modify the default 'Media Center' text shown in the header."
+msgstr "ערוך את הטקסט ברירת מחדל בכותר של 'מרכז בידור'."
+
+msgctxt "#31272"
+msgid "Matches the colour of the header tile to the theme's highlight colour."
+msgstr "התאם את הצבעים של הלבנת כותרת לצבע הבלטה של המעטפת."
+
+msgctxt "#31273"
+msgid "Prevents the side view menu from being accessed in library views."
+msgstr "מונע גישה לתפריט צד במסכי הספריה."
+
+msgctxt "#31274"
+msgid "Enables the TV Tunes addon in library views. Plays the tv theme song when viewing the seasons or episodes of a tv show."
+msgstr "הפעל תוסף TV Tunes בבספרית תצוגה. מנגן את שיר הנושא כאשר צופים ברשימת עונות או פרקים של הסדרה"
+
+msgctxt "#31275"
+msgid "Show the RSS feed at the bottom of the screen"
+msgstr "הצגת את הפיד הRSS בתכתית המסך."
+
+msgctxt "#31276"
+msgid "Show next aired information for tv shows at the bottom of the screen. Also shows an RSS feed of upcoming tv show airdates in the tv show hub. In the Next Aired addon configuration enable the 'Show All Tv Shows for homescreen' option for best effect."
+msgstr "הצגת מידע על שידור הבא של הסדרה בתחתית המסך. בנוסף מציג פיד RSS של סדרות הבאות במרכז הסדרות. In the Next Aired addon configuration enable the 'Show All Tv Shows for homescreen' option for best effect."
+
+msgctxt "#31277"
+msgid "Resets the skin back to default settings. WARNING: this will wipe all your skin settings. All custom tiles and widgets will be reset to defaults."
+msgstr "אפס את המעטפת להגדרות ברירת מחדל. אזהרה: אפשרות זאת תמחק את כל ההגדרות של המעטפת. כל לבנות ויישומונים מותאימים אישים יואפסו לברירת מחדל."
+
+msgctxt "#31278"
+msgid "PVR Manager"
+msgstr "מנהל PVR"
