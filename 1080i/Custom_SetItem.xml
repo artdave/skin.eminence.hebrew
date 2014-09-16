@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Foundation -->
 <window type="dialog" id="3061">
 	<defaultcontrol always="true">9200</defaultcontrol>
@@ -325,7 +325,7 @@
                             <description>Insert</description>
                             <label>31219</label>
                             <icon>special://skin/extras/icons/wand.png</icon>
-                            <onclick>RunScript(special://skin/extras/scripts/eminence_functions.py,inserttile,$INFO[Window(3061).Property(item)])</onclick>
+                            <onclick>RunScript(script.eminencefunctions,inserttile,$INFO[Window(3061).Property(item)])</onclick>
                         </item>
                         
                         <item id="19">
