@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
-    id="skin.eminence"
+    id="skin.eminence.hebrew"
     version="1.0.0"
-    name="Eminence"
+    name="Eminence Hebrew"
     provider-name="jurialmunkey">
     <requires>
         <import addon="xbmc.gui" version="5.0.1"/>
