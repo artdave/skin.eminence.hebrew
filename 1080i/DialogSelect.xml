@@ -4,7 +4,7 @@
     <defaultcontrol always="true">3</defaultcontrol>
     <allowoverlay>yes</allowoverlay>
     <zorder>3</zorder>
-    <onunload condition="!IsEmpty(Skin.String(Widget_Position)) + !IsEmpty(Skin.String(Widget_Favourite.Path))">RunScript(special://skin/extras/scripts/eminence_functions.py,setfavourite,$INFO[Skin.String(Widget_Position)],$INFO[Skin.String(Widget_Favourite.Path)],$INFO[Skin.String(Widget_Favourite.Label)])</onunload>
+    <onunload condition="!IsEmpty(Skin.String(Widget_Position)) + !IsEmpty(Skin.String(Widget_Favourite.Path))">RunScript(script.eminencefunctions,setfavourite,$INFO[Skin.String(Widget_Position)],$INFO[Skin.String(Widget_Favourite.Path)],$INFO[Skin.String(Widget_Favourite.Label)])</onunload>
     <onunload condition="!IsEmpty(Skin.String(Widget_Position))">Skin.Reset(Widget_Position)</onunload>
     <onunload condition="!IsEmpty(Skin.String(Widget_Favourite.Path))">Skin.Reset(Widget_Favourite.Path)</onunload>
     <controls>
@@ -32,7 +32,7 @@
         </control>
         <control type="group">
             <posx>horzpad</posx>
-            <posy>70</posy>
+            <posy>topoffset</posy>
             <include>Animation.SlideOpen.Left</include>
             <control type="label" id="1"><visible>false</visible></control>
             <control type="label" description="Info Label">

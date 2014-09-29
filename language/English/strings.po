@@ -719,3 +719,11 @@ msgstr ""
 msgctxt "#31278"
 msgid "PVR Manager"
 msgstr ""
+
+msgctxt "#31279"
+msgid "Alt style"
+msgstr ""
+
+msgctxt "#31280"
+msgid "Automatically start artwork downloader after library update"
+msgstr ""

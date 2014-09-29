@@ -293,7 +293,7 @@
         
         <item id="14">
             <label>1214</label>
-            <onclick>SendClick(502,5)</onclick>
+            <onclick>ActivateWindow(Music,Files,return)</onclick>
             <icon>special://skin/extras/icons/files.png</icon>
             <property name="Color">1</property>
         </item>
@@ -414,9 +414,9 @@
                     <width>widgethubrightw</width>
                     <height>90</height>
                     <texture colordiffuse="PosterHighlight">common/white.png</texture>
-                    
-                    <animation condition="Container(9500).OnNext" reversible="false" effect="slide" start="0,-33" end="0,0" time="300" tween="back" easing="out">Focus</animation>
-                    <animation condition="Container(9500).OnPrevious" reversible="false" effect="slide" start="0,33" end="0,0" time="300" tween="back" easing="out">Focus</animation>
+                        
+                    <!--<animation condition="Container(9500).OnNext" reversible="false" effect="slide" start="0,-33" end="0,0" time="300" tween="back" easing="out">Focus</animation>
+                    <animation condition="Container(9500).OnPrevious" reversible="false" effect="slide" start="0,33" end="0,0" time="300" tween="back" easing="out">Focus</animation>-->
                     
                 </control>
                 <control type="image">

@@ -21,8 +21,10 @@
                 <include>DefScrollBarMove</include>
                 <animation effect="fade" start="100" end="25" time="400" condition="!Control.HasFocus(60)">Conditional</animation>
                 <animation effect="fade" start="100" end="0" condition="[!IntegerGreaterThan(Container.NumPages,1) + !Control.HasFocus(60)] | ControlGroup(9000).HasFocus()">Conditional</animation>
-            </control>      
+            </control>   
+               
             <control type="image">
+                <visible>!Skin.HasSetting(list.highlight)</visible>
                 <height>globalh</height>
                 <width>listw</width>
                 <colordiffuse>PosterBorder</colordiffuse>
@@ -58,20 +60,29 @@
                                 <font>Font-Button</font>
                                 <label>$VAR[VARLabel]</label>
                             </control>
+                            <control type="label">
+                                <posx>30r</posx>
+                                <width>900</width>
+                                <font>Font-ListInfo-Small</font>
+                                <align>right</align>
+                                <label>$INFO[ListItem.Label2]</label>
+                            </control>
                         </control>
-                        <control type="label">
-                            <posx>30</posx>
-                            <width>900</width>
-                            <font>Font-Button</font>
-                            <label>$VAR[VARLabel]</label>
+                        <control type="group">
                             <visible>!Container.Content(movies) + !Container.Content(episodes) + !Container.Content(songs) + !Container.Content(seasons) + !Container.Content(tvshows)</visible>
-                        </control>
-                        <control type="label">
-                            <posx>30r</posx>
-                            <width>900</width>
-                            <font>Font-ListInfo-Small</font>
-                            <align>right</align>
-                            <label>$INFO[ListItem.Label2]</label>
+                            <control type="label">
+                                <posx>30</posx>
+                                <width>900</width>
+                                <font>Font-Button</font>
+                                <label>$VAR[VARLabel]</label>                                
+                            </control>
+                            <control type="label">
+                                <posx>30r</posx>
+                                <width>900</width>
+                                <font>Font-ListInfo-Small</font>
+                                <align>right</align>
+                                <label>$INFO[ListItem.Label2]</label>
+                            </control>
                         </control>
                     </control>
     
@@ -82,20 +93,36 @@
                     <control type="group">
                         <control type="group">
                             <visible>Control.HasFocus(50)</visible>
+                            <control type="group">
+                                <visible>Skin.HasSetting(list.highlight)</visible>
+                                <!--<animation condition="Container(50).OnNext" reversible="false" effect="slide" start="0,-33" end="0,0" time="300" tween="back" easing="out">Focus</animation>
+                                <animation condition="Container(50).OnPrevious" reversible="false" effect="slide" start="0,33" end="0,0" time="300" tween="back" easing="out">Focus</animation>-->
+                                <control type="image">
+                                    <height>listh</height>
+                                    <width>listw</width>
+                                    <texture border="12" flipx="false" colordiffuse="PosterBorder">common/border-inner.png</texture>
+                                </control>
+                                <control type="image">
+                                    <height>listh</height>
+                                    <width>8</width>
+                                    <texture flipx="false" colordiffuse="PosterHighlight">common/white.png</texture>
+                                </control>
+                            </control>
                             <control type="image">
+                                <visible>!Skin.HasSetting(list.highlight)</visible>
                                 <height>listh</height>
                                 <width>listw</width>
                                 <texture border="12" flipx="false" colordiffuse="PosterHighlight">common/white.png</texture>
-                                <animation condition="Container(50).OnNext" reversible="false" effect="slide" start="0,-33" end="0,0" time="300" tween="back" easing="out">Focus</animation>
-                                <animation condition="Container(50).OnPrevious" reversible="false" effect="slide" start="0,33" end="0,0" time="300" tween="back" easing="out">Focus</animation>
+                                <!--<animation condition="Container(50).OnNext" reversible="false" effect="slide" start="0,-33" end="0,0" time="300" tween="back" easing="out">Focus</animation>
+                                <animation condition="Container(50).OnPrevious" reversible="false" effect="slide" start="0,33" end="0,0" time="300" tween="back" easing="out">Focus</animation>-->
                             </control>
                             <control type="group">
                                 <visible>Container.Content(movies) | Container.Content(episodes) | Container.Content(songs) | Container.Content(seasons) | Container.Content(tvshows)</visible>
                                 <control type="group">
-                                <posx>10</posx>
-                                <posy>8</posy>
-                                <include>WatchedImage</include>
-                            </control>
+                                    <posx>10</posx>
+                                    <posy>8</posy>
+                                    <include>WatchedImage</include>
+                                </control>
                                 <control type="label">
                                     <posx>64</posx>
                                     <width>900</width>
@@ -103,22 +130,33 @@
                                     <label>$VAR[VARLabel]</label>
                                     <textcolor>Selected</textcolor>
                                 </control>
+                                <control type="label">
+                                    <posx>30r</posx>
+                                    <width>900</width>
+                                    <font>Font-ListInfo-Small</font>
+                                    <align>right</align>
+                                    <label>$INFO[ListItem.Label2]</label>
+                                    <textcolor>Selected</textcolor>
+                                </control>
                             </control>
-                            <control type="label">
-                                <posx>30</posx>
-                                <width>900</width>
-                                <font>Font-Button</font>
-                                <label>$VAR[VARLabel]</label>
-                                <textcolor>Selected</textcolor>
+                            <control type="group">
                                 <visible>![Container.Content(movies) | Container.Content(episodes) | Container.Content(songs) | Container.Content(seasons) | Container.Content(tvshows)]</visible>
-                            </control>
-                            <control type="label">
-                                <posx>30r</posx>
-                                <width>900</width>
-                                <font>Font-ListInfo-Small</font>
-                                <align>right</align>
-                                <label>$INFO[ListItem.Label2]</label>
-                                <textcolor>Selected</textcolor>
+                                <control type="label">
+                                    <posx>30</posx>
+                                    <width>900</width>
+                                    <font>Font-Button</font>
+                                    <label>$VAR[VARLabel]</label>
+                                    <textcolor>Selected</textcolor>
+                                    
+                                </control>
+                                <control type="label">
+                                    <posx>30r</posx>
+                                    <width>900</width>
+                                    <font>Font-ListInfo-Small</font>
+                                    <align>right</align>
+                                    <label>$INFO[ListItem.Label2]</label>
+                                    <textcolor>Selected</textcolor>
+                                </control>
                             </control>
                         </control>
                         <control type="group">
@@ -136,20 +174,29 @@
                                     <font>Font-Button</font>
                                     <label>$VAR[VARLabel]</label>
                                 </control>
+                                <control type="label">
+                                    <posx>30r</posx>
+                                    <width>900</width>
+                                    <font>Font-ListInfo-Small</font>
+                                    <align>right</align>
+                                    <label>$INFO[ListItem.Label2]</label>
+                                </control>
                             </control>
-                            <control type="label">
-                                <posx>30</posx>
-                                <width>900</width>
-                                <font>Font-Button</font>
-                                <label>$VAR[VARLabel]</label>
-                                <visible>![Container.Content(movies) | Container.Content(episodes) | Container.Content(songs) | Container.Content(seasons) | Container.Content(tvshows)]</visible>
-                            </control>
-                            <control type="label">
-                                <posx>30r</posx>
-                                <width>900</width>
-                                <font>Font-ListInfo-Small</font>
-                                <align>right</align>
-                                <label>$INFO[ListItem.Label2]</label>
+                            <control type="group">
+                                <visible>!Container.Content(movies) + !Container.Content(episodes) + !Container.Content(songs) + !Container.Content(seasons) + !Container.Content(tvshows)</visible>
+                                <control type="label">
+                                    <posx>30</posx>
+                                    <width>900</width>
+                                    <font>Font-Button</font>
+                                    <label>$VAR[VARLabel]</label>                                
+                                </control>
+                                <control type="label">
+                                    <posx>30r</posx>
+                                    <width>900</width>
+                                    <font>Font-ListInfo-Small</font>
+                                    <align>right</align>
+                                    <label>$INFO[ListItem.Label2]</label>
+                                </control>
                             </control>
                         </control>
                     </control>

@@ -7,7 +7,7 @@
         
         <control type="group">
             <posx>horzpad</posx>
-            <posy>70</posy>
+            <posy>topoffset</posy>
             <include>Animation.SlideOpen.Left</include>
             <control type="label" description="Info Label">
                 <include>DefSideLabelCoords</include>
@@ -80,7 +80,7 @@
 
             <control type="label" id="7">
                 <textoffsetx>30</textoffsetx>
-                <textcolor>Highlight-NF</textcolor>
+                <textcolor>PosterHighlight</textcolor>
             </control>
 
             <control type="image" id="6">
